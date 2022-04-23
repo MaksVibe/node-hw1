@@ -1,0 +1,28 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksVibe/node-hw1.git"
+  },
+  "author": "Maksym <parunovmaksym@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksVibe/node-hw1/issues"
+  },
+  "homepage": "https://github.com/MaksVibe/node-hw1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "uid": "^2.0.0",
+    "yargs": "^17.4.1"
+  }
+}
